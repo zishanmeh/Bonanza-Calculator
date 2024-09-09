@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bonanza Sale Calculation</title>
+  </head>
+  <body>
+    <main>
+      <section class="bonanza-calc" id="bonanzaCacl">
+        <form>
+          <input id="dateInput" type="date" name="" id="" />
+          <input id="uber" type="number" placeholder="Uber: " />
+          <input id="justEat" type="number" placeholder="Just Eat: " />
+          <input id="deliverro" type="number" placeholder="Deliverro: " />
+          <input id="pdq" type="number" placeholder="PDQ: " />
+          <input id="online1" type="number" placeholder="Online 1: " />
+          <input id="online2" type="number" placeholder="Online 2: " />
+          <input id="cash" type="number" placeholder="Cash Sale: " />
+          <input id="exp" type="number" placeholder="Exp: " />
+          <input id="com" type="number" placeholder="Com: " />
+          <input id="adj" type="number" placeholder="Adj: " />
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </section>
+      <section>
+        <div class="calculated" id="calculated">
+          <div class="calculated-date">
+            <p id="showDate">3/09/2024</p>
+            <p id="showDay">Saturday</p>
+          </div>
+          <div class="calculated-everything">
+            <div class="total">
+              <p>Total Sale</p>
+              <p id="showTotal">120.00</p>
+            </div>
+            <div class="justEat">
+              <p>Just Eat</p>
+              <p id="showJustEat">120.00</p>
+            </div>
+            <div class="Uber">
+              <p>Uber</p>
+              <p id="showUber">120.00</p>
+            </div>
+            <div class="Deliverro">
+              <p>Deliverro</p>
+              <p id="showDeliverro">120.00</p>
+            </div>
+            <div class="pdq">
+              <p>PDQ</p>
+              <p id="showPdq">120.00</p>
+            </div>
+            <div class="online1">
+              <p>Online1</p>
+              <p id="showOnline1">120.00</p>
+            </div>
+            <div class="online2">
+              <p>Online2</p>
+              <p id="showOnline2">120.00</p>
+            </div>
+            <hr />
+            <div class="cash">
+              <p>Cash</p>
+              <p id="showCash">120.00</p>
+            </div>
+            <div class="exp">
+              <p>Exp</p>
+              <p id="showExp">120.00</p>
+            </div>
+            <div class="com">
+              <p>Com</p>
+              <p id="showCom">120.00</p>
+            </div>
+            <div class="adj">
+              <p>Adj</p>
+              <p id="showAdj">120.00</p>
+            </div>
+            <hr />
+            <div class="remain-cash">
+              <p></p>
+              <p id="showRemainCash">120.00</p>
+            </div>
+          </div>
+          <button onclick="print()">Print</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

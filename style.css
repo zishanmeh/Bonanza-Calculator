@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bonanza-calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 576px;
+  margin: auto;
+}
+.bonanza-calc form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.bonanza-calc form input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.bonanza-calc form button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* calculated-everything */
+.calculated {
+  max-width: 576px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#calculated {
+  display: none;
+}
+.calculated-everything {
+  width: 100%;
+}
+.calculated-everything hr {
+  margin: 20px auto;
+}
+.calculated-date,
+.total,
+.justEat,
+.Uber,
+.Deliverro,
+.pdq,
+.online1,
+.online2,
+.cash,
+.exp,
+.com,
+.adj,
+.remain-cash {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.calculated-date p {
+  font-weight: bold;
+}
